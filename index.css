@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 95vh;
+}
+.upperContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid salmon;
+}
+.lowerContainer{
+    border: 1px solid blue;
+}
+.tenPercent{
+    border: 2px solid teal;
+}
+.currentBudget{
+    border: 2px solid mediumvioletred;
+}
+.halfBox{
+    padding: 5px;
+}
